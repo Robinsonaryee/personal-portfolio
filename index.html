@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a href="#" class="logo"
+          ><span class="robinson">Robinson</span>
+          <span class="aryee">Aryee</span></a
+        >
+        <nav class="nav-menu">
+          <ul class="nav-items">
+            <li class="nav-list"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-list"><a href="#" class="nav-link">Skills</a></li>
+          </ul>
+        </nav>
+        <div class="desktop-btn">
+          <a href="#" class="callme-btn">Call Me</a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-section">
+            <div class="hero-image">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="./images/image-large.jpg" />
+                <source media="(min-width: 768px)" srcset="./images/image-medium.jpg" />
+                <img src="./images/image-small.jpg" alt="Responsive Image" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

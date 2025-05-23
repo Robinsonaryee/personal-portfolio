@@ -1,0 +1,56 @@
+/* ROOT */
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+  --fs-xs: 0.8rem;
+  --fs-sm: 1rem;
+  --fs-base: 1.6rem;
+  --fs-md: 2rem;
+  --fs-lg: 2.4rem;
+  --fs-xl: 3.2rem;
+  --fs-xxl: 4rem;
+  --fs-hero: 5rem;
+  --fs-massive: 6rem;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+/* NAVIGATION MENU */
+.navbar {
+    margin: 1.5rem 0;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+.nav-link {
+    text-decoration: none;
+}
+/* COMPONENTS AND REUSABLE */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+}
