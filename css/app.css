@@ -10,6 +10,15 @@
   --fs-xxl: 4rem;
   --fs-hero: 5rem;
   --fs-massive: 6rem;
+
+  /* Font Weights */
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }
 
 *,
@@ -49,30 +58,80 @@ html {
   font-size: var(--fs-base);
   text-decoration: none;
   padding: 0 1rem;
+  color: #262730;
+}
+
+/* LOGO */
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--fs-base);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+  color: #000000;
 }
 
 /* HERO SECTION */
 .hero {
-    
+    background-color: #FEF9FF;
+
 }
 .hero-section {
-    display: grid;
-    grid-template-columns: 3fr 5fr 1fr;
-    align-items: center;
-    gap: 4rem;
-    padding: 6rem 2rem;
+  display: grid;
+  grid-template-columns: 3fr 5fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 2rem;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .header-name {
-    font-size: var(--fs-hero);
+  font-family: "Roboto", sans-serif;
+  font-size: var(--fs-hero);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+}
+.header-des {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.6;
 }
 
 .hero-image img {
-    width: 100%;
-    max-width: 500px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+  width: 100%;
+  max-width: 500px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
+.hero-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.stats {
+  width: 200px;
+  height: auto;
+  background-color: #dddddd;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-radius: 4px;
+}
+.desktop-btn,
+.callme-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
 }
 /* COMPONENTS AND REUSABLE */
 .container {
@@ -80,4 +139,22 @@ html {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
+}
+
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5rem 2rem;
+  text-decoration: none;
+}
+.arrow {
+  width: 25px;
+  height: auto;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+}
+.callme-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
 }
