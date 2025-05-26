@@ -9,6 +9,11 @@
 html {
   font-size: 62.5%;
 }
+body {
+    background-color: #fef9ff;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
 /* NAVIGATION MENU */
 .navbar {
   margin: 1.5rem 0;
@@ -158,15 +163,18 @@ html {
 
 /* ABOUT ME */
 .about {
-   background-color: #fef9ff;
+   background-color: #e2e2e2;
 }
 .about-content {
-    display: inline-block;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1.5rem 2rem;
     
 }
 .about-head {
+   text-align: center;
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
@@ -178,10 +186,26 @@ html {
     font-weight: 400;
     line-height: 1.6;
 }
-.about-content:hover {
-    background-color: #dddddd;
-    border-radius: 4px;
+.project-head {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-align: center;
 }
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.project-content {
+    background-color: #0e0d0d;
+    border-radius: 4px;
+    padding: 1.5rem 2rem;
+}
+
+
 .desktop-btn,
 .call-me-btn {
   display: flex;
