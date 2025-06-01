@@ -80,6 +80,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #000000;
+  text-align: center;
 }
 
 /* HERO SECTION */
@@ -186,6 +187,56 @@ body {
     font-weight: 400;
     line-height: 1.6;
 }
+/* SKILLS SECTION */
+.skills {
+ 
+}
+.skill-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 1.2;
+}
+.skill-des {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+.skills-list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+}
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.8s ease-in-out;
+}
+.html {
+  width: 85%;
+   background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+.css {
+  width: 65%;
+   background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+.js {
+  width: 0%;
+   background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+/* PROJECT SECTION */
 .project-head {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
@@ -200,11 +251,15 @@ body {
     margin: 0 auto;
 }
 .project-content {
-    background-color: #0e0d0d;
+    background-color: #dddddd;
     border-radius: 4px;
     padding: 1.5rem 2rem;
 }
 
+/* FOOTER SECTION */
+.site-footer {
+  background-color: #000000;
+}
 
 .desktop-btn,
 .call-me-btn {
