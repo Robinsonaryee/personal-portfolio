@@ -377,6 +377,55 @@ button {
 /* FOOTER SECTION */
 .site-footer {
   background-color: #000000;
+  padding: 4rem 2rem;
+  color: #ffffff;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  gap: 2rem;
+}
+.footer-about {
+  padding: 0.9rem 1rem;
+}
+.footer-links {
+   padding: 0.7rem 1rem;
+}
+.footer-links h4 {
+  margin-bottom: 0.5rem;
+}
+.footer-links ul li {
+  list-style-type: none;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+.footer-social h4 {
+  margin-bottom: 0.5rem;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+ 
+}
+
+.footer-social {
+   padding: 0.7rem 1rem;
+}
+.footer-social a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+}
+.footer-bottom {
+  margin-top: 0.9rem;
+   padding: 0.5rem 3rem;
 }
 
 .desktop-btn,
